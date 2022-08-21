@@ -5,9 +5,9 @@ public class PlayerSpawner : NetworkBehaviour
 {
     #region Fields
 
-    [SerializeField] private GameObject _playerPrefab;
+    [SerializeField] protected GameObject _playerPrefab;
     
-    private GameObject _playerCharacter;
+    protected GameObject _playerCharacter;
 
     #endregion
 
@@ -22,7 +22,7 @@ public class PlayerSpawner : NetworkBehaviour
 
     #region Methods
 
-    public void SpawnCharacter()
+    public virtual void SpawnCharacter()
     {
         if (!isServer) return;
 
