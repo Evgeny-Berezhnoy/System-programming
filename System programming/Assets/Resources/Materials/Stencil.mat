@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Planet
-  m_Shader: {fileID: 4800000, guid: c409547445b202c40853b9108136b2c5, type: 3}
+  m_Name: Stencil
+  m_Shader: {fileID: 4800000, guid: 490b4bc3a2da81049a224ff76b0d335e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -63,23 +63,16 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Height: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Seed: 1563
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.9150943, g: 0.3927999, b: 0.3927999, a: 1}
-    - _Emission: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 1, g: 1, b: 1, a: 0}
-    - _MountainColor: {r: 0.735849, g: 0.5075259, b: 0.06594872, a: 1}
-    - _OceanColor: {r: 0, g: 0.8113208, b: 0.7485341, a: 1}
-    - _TerrainColor: {r: 0.067422435, g: 0.9622642, b: 0, a: 1}
   m_BuildTextureStacks: []
